@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Anuvartan",
+  "version": "1.0.0",
+  "description": "Chrome extension to make learning and revision seamless, effective, and engaging. By leveraging the power of spaced repetition, Anuvartan ensures that knowledge stays fresh in your mind and strengthens memory retention.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/content.tsx"],
+      "matches": ["*"]
+    }
+  ]
+}
