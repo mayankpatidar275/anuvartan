@@ -1,7 +1,13 @@
 import "./App.css";
 
 function App() {
-  return <>Anuvartan Welcomes you</>;
+  return (
+    <>
+      <header>
+        <div>Anuvartan</div>
+      </header>
+    </>
+  );
 }
 
 export default App;
