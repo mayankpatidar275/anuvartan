@@ -5,6 +5,7 @@ function App() {
     <>
       <header>
         <div>Anuvartan</div>
+        <div>Enter the content you want to revise</div>
       </header>
     </>
   );
