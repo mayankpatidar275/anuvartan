@@ -7,6 +7,7 @@ function App() {
         <div>Anuvartan</div>
         <div>Enter the content you want to revise</div>
         <input type="text" />
+        <button>Submit</button>
       </header>
     </>
   );
