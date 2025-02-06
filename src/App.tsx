@@ -12,7 +12,7 @@ function App() {
         <div className="mt-4 flex flex-col sm:flex-row gap-2">
           <input
             type="text"
-            placeholder="Type here..."
+            placeholder="Type your content here..."
             className="border border-gray-300 rounded-lg p-2 w-full sm:w-80 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
