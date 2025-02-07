@@ -5,9 +5,7 @@ function App() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <header className="bg-white shadow-md p-6 rounded-lg text-center">
         <h1 className="text-2xl font-bold text-gray-800">Anuvartan</h1>
-        <p className="text-gray-600 mt-2">
-          Enter the content you want to revise
-        </p>
+        <p className="text-gray-600 mt-2">Enter the content</p>
 
         <div className="mt-4 flex flex-col sm:flex-row gap-2">
           <input
