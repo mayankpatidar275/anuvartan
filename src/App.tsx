@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [apikey, setApikey] = useState<string | null>(null);
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <header className="bg-white shadow-md p-6 rounded-lg text-center">
